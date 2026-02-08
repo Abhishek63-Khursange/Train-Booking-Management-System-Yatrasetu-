@@ -1,0 +1,31 @@
+.card.shadow-sm {
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card.shadow-sm:hover {
+  transform: translateY(-5px);
+}
+
+.card-title a {
+  color: #007bff;
+}
+
+.card-title a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.card-text svg {
+  color: #6c757d;
+}
+
+.btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+} 
