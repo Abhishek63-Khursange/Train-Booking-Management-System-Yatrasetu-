@@ -1,0 +1,11 @@
+# Replace Stripe Test Key
+src/main/resources/application.properties:stripe.key==>STRIPE_KEY_REMOVED
+
+# Replace JWT secret
+src/main/resources/application.properties:jwt.secret==>JWT_SECRET_REMOVED
+
+# Replace DB password
+src/main/resources/application.properties:spring.datasource.password==>DB_PASSWORD_REMOVED
+
+# Replace SMTP password
+src/main/resources/application.properties:spring.mail.password==>SMTP_PASSWORD_REMOVED
