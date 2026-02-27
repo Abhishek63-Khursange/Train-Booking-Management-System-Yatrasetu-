@@ -12,6 +12,16 @@ export default defineConfig({
       port: 5173,
     },
     proxy: {
+      '/send-otp': {
+        target: 'http://localhost:8080',
+        changeOrigin: true,
+        secure: false,
+      },
+      '/verify-otp-and-register': {
+        target: 'http://localhost:8080',
+        changeOrigin: true,
+        secure: false,
+      },
       '/contact': {
         target: 'http://localhost:8080',
         changeOrigin: true,
